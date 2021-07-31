@@ -1,0 +1,47 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+canvas {
+  border: 2px solid steelblue;
+  width: 95vw;
+  height: 80vh;
+}
+
+.toolbox {
+  background-color: rgb(76, 172, 156);
+  border: 2px solid rgb(32, 31, 44);
+  display: flex;
+  width: 95vw;
+  padding: 1rem;
+}
+
+.toolbox > * {
+
+  border: 2px solid black;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+ font-size: large;
+  height: 50px;
+  width: 50px;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.toolbox > *:last-child {
+  margin-left: auto;
+}
